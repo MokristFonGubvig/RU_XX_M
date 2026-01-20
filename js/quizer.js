@@ -402,7 +402,8 @@ let ru_19XX_m = [
 		{
 			pack : RU_19XX_M_PACK_1,
 			group : 'Леонид Утесов',
-			song : 'Московские окна (1960)'
+			song : 'Московские окна (1960)',
+			ignore : true
 		},
 		{
 			pack : RU_19XX_M_PACK_1,
@@ -467,7 +468,8 @@ let ru_19XX_m = [
 		{
 			pack : RU_19XX_M_PACK_1,
 			group : 'Олег Анофриев',
-			song : 'Песенка ни о чём (Из к/ф "Петух") (1965)'
+			song : 'Песенка ни о чём (Из к/ф "Петух") (1965)',
+			ignore : true
 		},
 		{
 			pack : RU_19XX_M_PACK_1,
@@ -497,7 +499,8 @@ let ru_19XX_m = [
 		{
 			pack : RU_19XX_M_PACK_1,
 			group : 'Эмиль Горовец',
-			song : 'Сюзанна (1969)'
+			song : 'Сюзанна (1969)',
+			ignore : true
 		}
 ];
 
