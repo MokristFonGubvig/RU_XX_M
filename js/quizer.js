@@ -388,7 +388,8 @@ let ru_19XX_m = [
 		{
 			pack : RU_19XX_M_PACK_1,
 			group : 'Иван Шмелев',
-			song : 'Прощальная комсомольская (1937)'
+			song : 'Прощальная комсомольская (1937)',
+			ignore : true
 		},
 		{
 			pack : RU_19XX_M_PACK_1,
@@ -491,7 +492,8 @@ let ru_19XX_m = [
 		{
 			pack : RU_19XX_M_PACK_1,
 			group : 'Эдуард Хиль',
-			song : 'Вокализ (1966)'
+			song : 'Вокализ (1966)',
+			ignore : true
 		},
 		{
 			pack : RU_19XX_M_PACK_1,
