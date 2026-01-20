@@ -342,32 +342,182 @@ function load(){
 }
 
 // RU songs
-const ru_1970_m_icon = [
+const ru_19XX_m_icon = [
 	'pop'
 ];
 
-const RU_1970_M_PACK_1 = 1;
+const RU_19XX_M_PACK_1 = 1;
 
-let ru_1970_m = [
+let ru_19XX_m = [
 		{
-			pack : RU_1970_M_PACK_1,
-			group : 'Олег Даль',
-			song : 'Мальчик Купидон (1975)'
+			pack : RU_19XX_M_PACK_1,
+			group : 'Александр Вертинский',
+			song : 'Дорогой длинной (1926)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Александр Вертинский',
+			song : 'Пани Ирена (1930)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Вадим Козин',
+			song : 'Дружба (Когда простым и нежным взором) (1938)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Вадим Мулерман',
+			song : 'Лада (1968)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Вадим Мулерман',
+			song : 'Трус не играет в хоккей (1969)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Валерий Ободзинский',
+			song : 'Восточная песня (1969)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Георг Отс',
+			song : 'Ария мистера Икс (Из оперетты "Принцесса цирка") (1958)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Иван Шмелев',
+			song : 'Прощальная комсомольская (1937)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Иосиф Кобзон',
+			song : 'А у нас во дворе (1962)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Иосиф Кобзон',
+			song : 'Куба - любовь моя (1963)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Леонид Утесов',
+			song : 'Московские окна (1960)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Леонид Утесов',
+			song : 'Вступление: Марш весёлых ребят (1934)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Леонид Утесов',
+			song : 'У черного моря (1953)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Марк Бернес',
+			song : 'С чего начинается Родина (1967)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Марк Бернес',
+			song : 'Шаланды (Из к/ф "Два бойца") (1943)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Марк Бернес',
+			song : 'Я люблю тебя, жизнь (1956)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Муслим Магомаев',
+			song : 'Королева красоты (1965)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Муслим Магомаев',
+			song : 'Лучший город земли (1964)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Муслим Магомаев',
+			song : 'Синяя вечность (1969)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Никита Михалков',
+			song : 'Я шагаю по Москве (1964)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Николай Рыбников',
+			song : 'Когда весна придёт... (Из к/ф "Весна на Заречной улице") (1956)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Николай Рыбников',
+			song : 'Марш монтажников-высотников (1957)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Олег Анофриев',
+			song : 'Песенка друзей (ft Анатолий Горохов) [Из м/ф "Бременские музыканты"] (1969)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Олег Анофриев',
+			song : 'Песенка ни о чём (Из к/ф "Петух") (1965)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Олег Анофриев',
+			song : 'Спять усталые игрушки (1964)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Никита Михалков',
+			song : 'Я шагаю по Москве (1964)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Сергей Лемешев',
+			song : 'Скажите девушки (1936)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Фёдор Шаляпин',
+			song : 'Вдоль по Питерской (1924)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Эдуард Хиль',
+			song : 'Вокализ (1966)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Эдуард Хиль',
+			song : 'Как провожают пароходы (1965)'
+		},
+		{
+			pack : RU_19XX_M_PACK_1,
+			group : 'Эмиль Горовец',
+			song : 'Сюзанна (1969)'
 		}
 ];
 
-let ru_1970_m_1 =	ru_1970_m.filter(item => item.pack == 1);
+let ru_19XX_m_1 =	ru_19XX_m.filter(item => item.pack == 1);
 
 let music = [
 	{
-		arr: ru_1970_m,
+		arr: ru_19XX_m,
 		lang: 'ru',
-		year: '1970',
+		year: '19XX',
 		type: 'm',
 		packs: [
 				{
-					arr: ru_1970_m_1,
-					name: 'RU 1970s Male: Pop'
+					arr: ru_19XX_m_1,
+					name: 'RU 19XXs Male: Pop'
 				}
 			]
 	}
@@ -695,9 +845,9 @@ let generateImgPath;
 
 function setup(){
 	lang = 'ru';
-	year = '1970';
+	year = '19XX';
 	artist_type = 'm';
-	package_names = ru_1970_m_icon;
+	package_names = ru_19XX_m_icon;
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
